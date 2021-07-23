@@ -432,16 +432,18 @@
         <!-- Add Product  -->
         <section class="addclass">
 
-            <button type="button" class="btn btn-info btn-lg addclass" data-toggle="modal" data-target="#addclass"><img
-                    src="image/addclass.png"></button>
+            <button type="button" class="btn btn-info btn-lg addclass" data-toggle="modal" data-target="#addclass">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </button>
             <div id="addclass" class="modal fade" role="dialog">
                 <div class="modal-dialog">
 
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="addclastopsection">
-                            <button type="button" class="close" data-dismiss="modal"><img
-                                    src="image/leftarrow.png"></button>
+                            <button type="button" class="close" data-dismiss="modal"><i class="fa fa-arrow-left"
+                                    aria-hidden="true"></i>
+                            </button>
                             <h2 class="titleaddclass">Add Product</h2>
                         </div>
 
